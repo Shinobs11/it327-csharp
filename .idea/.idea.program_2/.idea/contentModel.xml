@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Tim\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Tim\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_program_2.821433046.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Tim\RiderProjects\it327-csharp\program_2" t="IncludeFlat">
+      <e p="Intermediate_1" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Intermediate.cs" t="Include" />
+        <e p="Intermediate_1.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="program_1" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="HelloWorld" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="program_1.csproj" t="IncludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="program_2.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
