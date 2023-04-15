@@ -1,0 +1,6 @@
+C:\Users\Tim\RiderProjects\it327-csharp\program_2\Intermediate_1\bin\Debug\Intermediate_1.exe
+C:\Users\Tim\RiderProjects\it327-csharp\program_2\Intermediate_1\bin\Debug\Intermediate_1.pdb
+C:\Users\Tim\RiderProjects\it327-csharp\program_2\Intermediate_1\obj\Debug\Intermediate_1.csprojAssemblyReference.cache
+C:\Users\Tim\RiderProjects\it327-csharp\program_2\Intermediate_1\obj\Debug\Intermediate_1.csproj.CoreCompileInputs.cache
+C:\Users\Tim\RiderProjects\it327-csharp\program_2\Intermediate_1\obj\Debug\Intermediate_1.exe
+C:\Users\Tim\RiderProjects\it327-csharp\program_2\Intermediate_1\obj\Debug\Intermediate_1.pdb
