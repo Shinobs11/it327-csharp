@@ -72,5 +72,17 @@ namespace Intermediate_1
         {
             _weapon = newWeapon;
         }
+        
+        /// <summary>
+        /// Prints info about the current character
+        /// </summary>
+        public void CharacterInfo()
+        {
+            Console.WriteLine("Name: "+_name);
+            Console.WriteLine("Class: "+GetType());
+            Console.WriteLine("Level: "+_level);
+            Console.WriteLine("EXP: "+_exp);
+            Console.WriteLine("Current Weapon: "+_weapon);
+        }
     }
 }
