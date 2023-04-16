@@ -43,6 +43,16 @@ namespace Intermediate_1
             return _name;
         }
         
+        public double GetExp()
+        {
+            return _exp;
+        }
+
+        public Weapons GetWeapon()
+        {
+            return _weapon;
+        }
+        
         /// <summary>
         /// Increment level if EXP is high enough
         /// </summary>
@@ -58,7 +68,7 @@ namespace Intermediate_1
         /// <summary>
         /// Add exp to counter equal to the input, check if character can grow level
         /// </summary>
-        public void GainExp(int addition)
+        public void GainExp(double addition)
         {
             _exp += addition;
             GrowLevel();
