@@ -58,7 +58,7 @@ namespace Intermediate_1
         /// </summary>
         protected virtual void GrowLevel()
         {
-            if (_exp >= _expNeeded[_level+1] && _level<10)
+            if (_exp >= _expNeeded[_level] && _level<10)
             {
                 _level++;
                 Console.WriteLine(_name+" grew to level "+_level+"!");
@@ -89,7 +89,7 @@ namespace Intermediate_1
         public void CharacterInfo()
         {
             Console.WriteLine("Name: "+_name);
-            Console.WriteLine("Class: "+GetType());
+            Console.WriteLine("Class: "+GetType().Name);
             Console.WriteLine("Level: "+_level);
             Console.WriteLine("EXP: "+_exp);
             Console.WriteLine("Current Weapon: "+_weapon);

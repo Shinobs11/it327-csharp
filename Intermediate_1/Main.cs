@@ -83,6 +83,7 @@ namespace Intermediate_1
                         break;
                 }
             }
+            Console.WriteLine("\n");
             Menu();
         }
         
@@ -116,6 +117,7 @@ namespace Intermediate_1
                 _characters.Remove(c);
                 Console.WriteLine("Deleted "+name+"\n");
             }
+            Console.WriteLine("\n");
             Menu();
         }
         
@@ -153,6 +155,7 @@ namespace Intermediate_1
                         break;
                 }
             }
+            Console.WriteLine("\n");
             Menu();
         }
         
@@ -186,6 +189,7 @@ namespace Intermediate_1
                 Role c = _characters.Find(x => x.GetName() == name);
                 c.GainExp(exp);
             }
+            Console.WriteLine("\n");
             Menu();
         }
     }

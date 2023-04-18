@@ -29,10 +29,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8f63915-f23e-43c8-a681-0b363f8722a5" name="Default Changelist" comment="Started menu creation">
+    <list default="true" id="f8f63915-f23e-43c8-a681-0b363f8722a5" name="Default Changelist" comment="Finished off menu creation">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.program_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.program_2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate_1/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate_1/Main.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate_1/Role.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate_1/Role.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate_1/bin/Debug/Intermediate_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate_1/bin/Debug/Intermediate_1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate_1/bin/Debug/Intermediate_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate_1/bin/Debug/Intermediate_1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate_1/obj/Debug/Intermediate_1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate_1/obj/Debug/Intermediate_1.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate_1/obj/Debug/Intermediate_1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate_1/obj/Debug/Intermediate_1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate_1/obj/Debug/Intermediate_1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate_1/obj/Debug/Intermediate_1.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +55,12 @@
         <option value="$PROJECT_DIR$/Intermediate_1/Intermediate.cs" />
         <option value="$PROJECT_DIR$/Intermediate_1/Values.cs" />
         <option value="$PROJECT_DIR$/Intermediate_1/IMage.cs" />
-        <option value="$PROJECT_DIR$/Intermediate_1/BlackMage.cs" />
         <option value="$PROJECT_DIR$/Intermediate_1/WhiteMage.cs" />
         <option value="$PROJECT_DIR$/Intermediate_1/Weapons.cs" />
         <option value="$PROJECT_DIR$/Intermediate_1/Enums.cs" />
-        <option value="$PROJECT_DIR$/Intermediate_1/Role.cs" />
         <option value="$PROJECT_DIR$/Intermediate_1/Main.cs" />
+        <option value="$PROJECT_DIR$/Intermediate_1/BlackMage.cs" />
+        <option value="$PROJECT_DIR$/Intermediate_1/Role.cs" />
       </list>
     </option>
   </component>
@@ -124,7 +129,8 @@
       <updated>1681518046425</updated>
       <workItem from="1681518048024" duration="332000" />
       <workItem from="1681582975101" duration="6348000" />
-      <workItem from="1681659494474" duration="2522000" />
+      <workItem from="1681659494474" duration="5960000" />
+      <workItem from="1681848156555" duration="1137000" />
     </task>
     <task id="LOCAL-00001" summary="prog1/2">
       <created>1681518206718</created>
@@ -147,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681667420410</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finished off menu creation">
+      <created>1681668927830</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681668927830</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,25 +198,26 @@
     <MESSAGE value="prog1/2" />
     <MESSAGE value="Started program_2 implementation" />
     <MESSAGE value="Started menu creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started menu creation" />
+    <MESSAGE value="Finished off menu creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished off menu creation" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1234" height="398" key="GridCell.Tab.0.bottom" timestamp="1681588920145">
+    <state width="1234" height="398" key="GridCell.Tab.0.bottom" timestamp="1681848693661">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="398" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1681588920145" />
-    <state width="1234" height="398" key="GridCell.Tab.0.center" timestamp="1681588920145">
+    <state width="1234" height="398" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1681848693661" />
+    <state width="1234" height="398" key="GridCell.Tab.0.center" timestamp="1681848693660">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="398" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1681588920145" />
-    <state width="1234" height="398" key="GridCell.Tab.0.left" timestamp="1681588920145">
+    <state width="1234" height="398" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1681848693660" />
+    <state width="1234" height="398" key="GridCell.Tab.0.left" timestamp="1681848693660">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="398" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1681588920145" />
-    <state width="1234" height="398" key="GridCell.Tab.0.right" timestamp="1681588920145">
+    <state width="1234" height="398" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1681848693660" />
+    <state width="1234" height="398" key="GridCell.Tab.0.right" timestamp="1681848693661">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="398" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1681588920145" />
+    <state width="1234" height="398" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1681848693661" />
     <state x="1512" y="432" key="Rider.ProjectTemplateDialog.Size" timestamp="1681518075772">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -212,10 +226,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1373" y="100" width="1094" height="1200" key="VCS.FileHistoryDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1681668533932" />
-    <state x="1512" y="433" key="Vcs.Push.Dialog.v2" timestamp="1681667434640">
+    <state x="1512" y="433" key="Vcs.Push.Dialog.v2" timestamp="1681668932160">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1512" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1681667434640" />
+    <state x="1512" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1681668932160" />
     <state x="1373" y="100" width="1094" height="1200" key="dock-window-1" timestamp="1681588896499">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
