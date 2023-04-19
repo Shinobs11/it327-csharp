@@ -9,6 +9,13 @@ namespace Intermediate_1
 
         private readonly string[] _possibleSpells =
             {"", "Heal", "Squelch", "", "Sap", "HealMore", "", "Zoom", "Insulatle", "Zing"};
+        
+        /// <summary>
+        /// Constructor, calls base constructor Role
+        /// </summary>
+        /// <param name="name">Name</param>
+        /// <param name="level">Level, default 1</param>
+        /// <param name="weapon">Weapon, default None</param>
         public WhiteMage(string name, int level = 1, Weapons weapon = Weapons.None) : base(name, level, weapon)
         {
             _spells = new List<string>();
@@ -54,6 +61,7 @@ namespace Intermediate_1
                 Console.WriteLine(GetName()+" learned "+_possibleSpells[GetLevel()]+"!");
             }
         }
+        
         /// <summary>
         /// Overridden function, checks if character can grow a level, if so, checks
         /// if they gain a spell as well
@@ -68,6 +76,16 @@ namespace Intermediate_1
             {
                 GainSpell();
             }
+        }
+        
+        /// <summary>
+        /// Overridden function, calls base CharacterInfo() alongside known spells
+        /// </summary>
+        public override void CharacterInfo()
+        {
+            base.CharacterInfo();
+            Console.WriteLine("Spells: ");
+            ListSpells();
         }
     }
 }

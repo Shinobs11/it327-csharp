@@ -17,7 +17,7 @@ namespace Intermediate_1
         /// <param name="name">Name of character</param>
         /// <param name="level">Starting level</param>
         /// <param name="weapon">Starting weapon, default is none</param>
-        public Role(string name, int level = 1, Weapons weapon = Weapons.None)
+        protected Role(string name, int level = 1, Weapons weapon = Weapons.None)
         {
             _name = name;
             _level = level;
@@ -43,22 +43,30 @@ namespace Intermediate_1
             return _name;
         }
         
+        /// <summary>
+        /// Getter for exp
+        /// </summary>
+        /// <returns>Returns exp</returns>
         public double GetExp()
         {
             return _exp;
         }
-
+        
+        /// <summary>
+        /// Getter for weapon
+        /// </summary>
+        /// <returns>Returns weapon</returns>
         public Weapons GetWeapon()
         {
             return _weapon;
         }
         
         /// <summary>
-        /// Increment level if EXP is high enough
+        /// Increment level(s) if EXP is high enough
         /// </summary>
         protected virtual void GrowLevel()
         {
-            if (_exp >= _expNeeded[_level] && _level<10)
+            while(_exp >= _expNeeded[_level] && _level<10)
             {
                 _level++;
                 Console.WriteLine(_name+" grew to level "+_level+"!");
@@ -81,12 +89,13 @@ namespace Intermediate_1
         public void ChangeWeapon(Weapons newWeapon)
         {
             _weapon = newWeapon;
+            Console.WriteLine("Equipped "+_weapon+"!");
         }
         
         /// <summary>
         /// Prints info about the current character
         /// </summary>
-        public void CharacterInfo()
+        public virtual void CharacterInfo()
         {
             Console.WriteLine("Name: "+_name);
             Console.WriteLine("Class: "+GetType().Name);

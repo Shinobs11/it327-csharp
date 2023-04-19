@@ -6,9 +6,17 @@ namespace Intermediate_1
     public class BlackMage: Role, IMage
     {
         private List<string> _spells;
-
+        
+        //List of spells avaiable
         private readonly string[] _possibleSpells =
             {"", "Blaze", "Crack", "", "Woosh", "Buff", "", "BlazeMore", "Crackle", "Kabuff"};
+        
+        /// <summary>
+        /// Constructor, calls base constructor Role
+        /// </summary>
+        /// <param name="name">Name</param>
+        /// <param name="level">Level, default 1</param>
+        /// <param name="weapon">Weapon, default None</param>
         public BlackMage(string name, int level = 1, Weapons weapon = Weapons.None) : base(name, level, weapon)
         {
             _spells = new List<string>();
@@ -67,6 +75,16 @@ namespace Intermediate_1
             {
                 GainSpell();
             }
+        }
+        
+        /// <summary>
+        /// Overridden function, calls base CharacterInfo() alongside known spells
+        /// </summary>
+        public override void CharacterInfo()
+        {
+            base.CharacterInfo();
+            Console.WriteLine("Spells: ");
+            ListSpells();
         }
     }
 }

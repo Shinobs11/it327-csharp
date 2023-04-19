@@ -24,7 +24,8 @@ namespace Intermediate_1
                                   "3 - Delete character\n" +
                                   "4 - Change class\n" +
                                   "5 - Add EXP\n" +
-                                  "6 - Exit\n");
+                                  "6 - Change weapon\n" +
+                                  "7 - Exit\n");
             string input = Console.ReadLine();
             switch (input)
             {
@@ -44,6 +45,9 @@ namespace Intermediate_1
                     AddExpToChar();
                     break;
                 case "6":
+                    ChangeWeapon();
+                    break;
+                case "7":
                     Console.WriteLine("Exiting application");
                     break;
                 default:
@@ -188,6 +192,33 @@ namespace Intermediate_1
                 double exp = Convert.ToDouble(Console.ReadLine());  
                 Role c = _characters.Find(x => x.GetName() == name);
                 c.GainExp(exp);
+            }
+            Console.WriteLine("\n");
+            Menu();
+        }
+        
+        /// <summary>
+        /// Changes a character's equipped weapon given their name and the new weapon
+        /// </summary>
+        private void ChangeWeapon()
+        {
+            Console.WriteLine("Input character name:");
+            string name = Console.ReadLine();
+            if (CheckName(name))
+            {
+                Role c = _characters.Find(x => x.GetName() == name);
+                Console.WriteLine("\nInput new weaon(None, Stick, Club, ShortSword, Axe, Broadsword\n");
+                Console.WriteLine("Input new weapon name:");
+                string weapon = Console.ReadLine();
+                if (Enum.IsDefined(typeof(Weapons), weapon))
+                {
+                    Weapons w = (Weapons) Enum.Parse(typeof(Weapons), weapon);
+                    c.ChangeWeapon(w);
+                }
+                else
+                {
+                    Console.WriteLine("Invalid weapon type\n");
+                }
             }
             Console.WriteLine("\n");
             Menu();
