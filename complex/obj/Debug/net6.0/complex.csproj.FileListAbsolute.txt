@@ -1,0 +1,15 @@
+/home/shino/dev/it327-csharp/complex/bin/Debug/net6.0/complex
+/home/shino/dev/it327-csharp/complex/bin/Debug/net6.0/complex.deps.json
+/home/shino/dev/it327-csharp/complex/bin/Debug/net6.0/complex.runtimeconfig.json
+/home/shino/dev/it327-csharp/complex/bin/Debug/net6.0/complex.dll
+/home/shino/dev/it327-csharp/complex/bin/Debug/net6.0/ref/complex.dll
+/home/shino/dev/it327-csharp/complex/bin/Debug/net6.0/complex.pdb
+/home/shino/dev/it327-csharp/complex/obj/Debug/net6.0/complex.csproj.AssemblyReference.cache
+/home/shino/dev/it327-csharp/complex/obj/Debug/net6.0/complex.GeneratedMSBuildEditorConfig.editorconfig
+/home/shino/dev/it327-csharp/complex/obj/Debug/net6.0/complex.AssemblyInfoInputs.cache
+/home/shino/dev/it327-csharp/complex/obj/Debug/net6.0/complex.AssemblyInfo.cs
+/home/shino/dev/it327-csharp/complex/obj/Debug/net6.0/complex.csproj.CoreCompileInputs.cache
+/home/shino/dev/it327-csharp/complex/obj/Debug/net6.0/complex.dll
+/home/shino/dev/it327-csharp/complex/obj/Debug/net6.0/ref/complex.dll
+/home/shino/dev/it327-csharp/complex/obj/Debug/net6.0/complex.pdb
+/home/shino/dev/it327-csharp/complex/obj/Debug/net6.0/complex.genruntimeconfig.cache
